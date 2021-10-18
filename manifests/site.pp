@@ -30,10 +30,10 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'puppetdb.public.example42.cloud' {
+node 'puppetdb.private.example42.cloud' {
   contain role::puppet::db
 }
 
-node 'puppet.public.example42.cloud' {
+node 'puppet.private.example42.cloud' {
   contain role::puppet::compiler
 }
