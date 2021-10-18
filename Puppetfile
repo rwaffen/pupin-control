@@ -1,12 +1,13 @@
 forge 'https://forge.puppet.com'
 
 # Modules from the Puppet Forge
-# Versions should be updated to be the latest at the time you start
 
 mod 'puppet-r10k', :latest
 mod 'puppetlabs-git', :latest
 mod 'puppetlabs-puppetdb', :latest
 mod 'puppetlabs-stdlib',  :latest
+mod 'puppetlabs-firewall', :latest
+mod 'puppetlabs-inifile', :latest
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
