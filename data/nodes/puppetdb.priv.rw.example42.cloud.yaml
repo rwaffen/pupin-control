@@ -1,2 +1,2 @@
 ---
-puppetdb::params::postgres_version: 11
+puppetdb::postgres_version: 11
