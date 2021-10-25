@@ -2,7 +2,7 @@
 #
 #
 class profile::puppet::compiler (
-  String $puppetdb_host = 'puppetdb.private.example42.cloud',
+  String $puppetdb_host = 'puppetdb.priv.rw.example42.cloud',
   String $control_repo  = 'https://github.com/rwaffen/pupin-control.git',
 ){
   contain git
