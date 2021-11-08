@@ -37,3 +37,7 @@ node 'puppetdb.priv.rw.example42.cloud' {
 node 'puppet.priv.rw.example42.cloud' {
   contain role::puppet::compiler
 }
+
+node 'agent01.priv.rw.example42.cloud' {
+  contain profile::demo
+}
