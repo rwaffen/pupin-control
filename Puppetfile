@@ -2,6 +2,12 @@ forge 'https://forge.puppet.com'
 
 # Modules from the Puppet Forge
 
+mod 'data',
+  :git => 'https://github.com/rwaffen/pupin-hiera.git',
+  :branch => :control_branch,
+  :default_branch => 'main',
+  :install_path => 'hieradata',
+
 mod 'puppet-r10k',           :latest
 mod 'puppetlabs-apt',        :latest
 mod 'puppetlabs-concat',     :latest
