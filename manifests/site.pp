@@ -25,19 +25,17 @@ File { backup => false }
 #
 # For more on node definitions, see: https://puppet.com/docs/puppet/latest/lang_node_definitions.html
 node default {
-  # This is where you can declare classes for all nodes.
-  # Example:
-  #   class { 'my_class': }
+  include infra
 }
 
-node 'puppetdb.priv.rw.example42.cloud' {
-  contain role::puppet::db
-}
+# node 'puppetdb.priv.rw.example42.cloud' {
+#   contain role::puppet::db
+# }
 
-node 'puppet.priv.rw.example42.cloud' {
-  contain role::puppet::compiler
-}
+# node 'puppet.priv.rw.example42.cloud' {
+#   contain role::puppet::compiler
+# }
 
-node 'agent01.priv.rw.example42.cloud' {
-  contain profile::demo
-}
+# node 'agent01.priv.rw.example42.cloud' {
+#   contain profile::demo
+# }
