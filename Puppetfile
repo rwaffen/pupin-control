@@ -6,7 +6,7 @@ mod 'data',
   :git => 'https://github.com/rwaffen/pupin-hiera.git',
   :branch => :control_branch,
   :default_branch => 'main',
-  :install_path => 'hieradata',
+  :install_path => 'hieradata'
 
 mod 'puppet-r10k',           :latest
 mod 'puppetlabs-apt',        :latest
