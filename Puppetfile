@@ -12,10 +12,6 @@ mod 'puppetlabs-postgresql', :latest
 mod 'puppetlabs-puppetdb',   :latest
 mod 'puppetlabs-stdlib',     :latest
 
-# test https://github.com/voxpupuli/puppet-mongodb/issues/631
-
-mod 'puppet-mongodb', '4.1.0'
-
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
