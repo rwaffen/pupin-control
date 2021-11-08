@@ -9,7 +9,7 @@ mod 'data',
   :default_branch => 'main',
   :install_path   => '' # checkout hiera on environemnt root
 
-mod 'infra', :git => 'https://github.com/rwaffen/pupin-infra.git'
+mod 'infra', :git => 'https://github.com/rwaffen/pupin-infra.git', :branch => 'main'
 
 mod 'puppet-r10k',           :latest
 mod 'puppetlabs-apt',        :latest
