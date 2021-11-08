@@ -4,10 +4,12 @@ forge 'https://forge.puppet.com'
 
 # pupin-hiera
 mod 'data',
-  :git => 'https://github.com/rwaffen/pupin-hiera.git',
-  :branch => :control_branch,
+  :git            => 'https://github.com/rwaffen/pupin-hiera.git',
+  :branch         => :control_branch,
   :default_branch => 'main',
-  :install_path => '' # checkout hiera on environemnt root
+  :install_path   => '' # checkout hiera on environemnt root
+
+mod 'infra', :git => 'https://github.com/rwaffen/pupin-infra.git'
 
 mod 'puppet-r10k',           :latest
 mod 'puppetlabs-apt',        :latest
