@@ -2,11 +2,12 @@ forge 'https://forge.puppet.com'
 
 # Modules from the Puppet Forge
 
+# pupin-hiera
 mod 'data',
   :git => 'https://github.com/rwaffen/pupin-hiera.git',
   :branch => :control_branch,
   :default_branch => 'main',
-  :install_path => ''
+  :install_path => '' # checkout hiera on environemnt root
 
 mod 'puppet-r10k',           :latest
 mod 'puppetlabs-apt',        :latest
